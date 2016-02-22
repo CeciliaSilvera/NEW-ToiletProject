@@ -1,0 +1,27 @@
+c:\users\ckei\documents\visual studio 2015\Projects\SocketServerC\SocketServerC\bin\Debug\SocketServerC.exe.config
+c:\users\ckei\documents\visual studio 2015\Projects\SocketServerC\SocketServerC\bin\Debug\SocketServerC.exe
+c:\users\ckei\documents\visual studio 2015\Projects\SocketServerC\SocketServerC\bin\Debug\SocketServerC.pdb
+c:\users\ckei\documents\visual studio 2015\Projects\SocketServerC\SocketServerC\obj\Debug\SocketServerC.csprojResolveAssemblyReference.cache
+c:\users\ckei\documents\visual studio 2015\Projects\SocketServerC\SocketServerC\obj\Debug\SocketServerC.exe
+c:\users\ckei\documents\visual studio 2015\Projects\SocketServerC\SocketServerC\obj\Debug\SocketServerC.pdb
+C:\Users\Alexander\Desktop\New folder (2)\server\SocketServerC\bin\Debug\SocketServerC.exe.config
+C:\Users\Alexander\Desktop\New folder (2)\server\SocketServerC\obj\Debug\SocketServerC.exe
+C:\Users\Alexander\Desktop\New folder (2)\server\SocketServerC\obj\Debug\SocketServerC.pdb
+C:\Users\Alexander\Desktop\New folder (2)\server\SocketServerC\bin\Debug\SocketServerC.exe
+C:\Users\Alexander\Desktop\New folder (2)\server\SocketServerC\bin\Debug\SocketServerC.pdb
+C:\Users\Alexander\Desktop\New folder (2)\server\SocketServerC\obj\Debug\SocketServerC.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\Desktop\Toilet - DbOnClient\Server\SocketServerC\bin\Debug\SocketServerC.exe.config
+C:\Users\Alexander\Desktop\Toilet - DbOnClient\Server\SocketServerC\obj\Debug\SocketServerC.exe
+C:\Users\Alexander\Desktop\Toilet - DbOnClient\Server\SocketServerC\obj\Debug\SocketServerC.pdb
+C:\Users\Alexander\Desktop\Toilet - DbOnClient\Server\SocketServerC\bin\Debug\SocketServerC.exe
+C:\Users\Alexander\Desktop\Toilet - DbOnClient\Server\SocketServerC\bin\Debug\SocketServerC.pdb
+C:\Users\Alexander\Desktop\Toilet - DbOnClient\Server\SocketServerC\obj\Debug\SocketServerC.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\Desktop\Toilet - DbOnClient -\Server\SocketServerC\bin\Debug\SocketServerC.exe.config
+C:\Users\Alexander\Desktop\Toilet - DbOnClient -\Server\SocketServerC\obj\Debug\SocketServerC.exe
+C:\Users\Alexander\Desktop\Toilet - DbOnClient -\Server\SocketServerC\obj\Debug\SocketServerC.pdb
+C:\Users\Alexander\Desktop\Toilet - DbOnClient -\Server\SocketServerC\bin\Debug\SocketServerC.exe
+C:\Users\Alexander\Desktop\Toilet - DbOnClient -\Server\SocketServerC\bin\Debug\SocketServerC.pdb
+C:\Users\Alexander\Desktop\Toilet - DbOnClient -\Server\SocketServerC\obj\Debug\SocketServerC.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\Desktop\Toilet1\Server\SocketServerC\bin\Debug\SocketServerC.exe.config
+C:\Users\Alexander\Desktop\Toilet1\Server\SocketServerC\obj\Debug\SocketServerC.exe
+C:\Users\Alexander\Desktop\Toilet1\Server\SocketServerC\obj\Debug\SocketServerC.pdb
