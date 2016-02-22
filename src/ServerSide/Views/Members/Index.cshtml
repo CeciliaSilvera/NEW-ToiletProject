@@ -1,0 +1,7 @@
+﻿@addTagHelper "*,Microsoft.AspNet.Mvc.TagHelpers"
+<h1> Loged in as @User.Identity.Name....</h1>
+
+<form asp-controller="Members" asp-action="logout">
+
+    <input type="submit" value="LogOut" />
+</form>
