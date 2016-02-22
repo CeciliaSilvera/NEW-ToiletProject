@@ -1,17 +1,22 @@
-﻿@model ToiletProject.Models.ViewModels.LoginViewModel
-@addTagHelper "*,Microsoft.AspNet.Mvc.TagHelpers"
+﻿@model LoginViewModel
+
 <h1>Login</h1>
 
 <form asp-controller="Account" asp-action="Login">
-    <label asp-for="UserName"></label>
-    <input asp-for="UserName" />
-    <span asp-validation-for="UserName"></span>
-    <br/>
-    <label asp-for="Password"></label>
-    <input type="password" asp-for="Password" />
-    <span asp-validation-for="Password"></span>
-
-    <br/>
-    <input type="submit" value="login" />
+    <table>
+        <tr>
+            <td> <label class="lable" asp-for="UserName"></label></td>
+            <td><input asp-for="UserName" /></td>
+        </tr>
+        <tr><td><span asp-validation-for="UserName"></span></td></tr>
+        <tr>
+            <td>
+                <label class="lable" asp-for="Password"></label>
+                <input type="password" asp-for="Password" />
+            </td>
+        </tr>
+        <tr><td><span asp-validation-for="Password"></span></td></tr>
+    </table>
+    <p id="button"><input type="submit" value="login" /></p>
 
 </form>
