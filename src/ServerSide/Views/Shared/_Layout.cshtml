@@ -8,9 +8,28 @@
 </head>
 <body>
     <div id="wrapperOuter">
+        
         <div id="wrapperInner">
+            <a href="/account/login">login</a>
+            <a href="/account/register">register</a>
+            <a href="/home/index">home</a>
+            
             @RenderBody()
+            
+        </div>
+        <div id="layoutTxt">
+            <hr />
+            <p>
+
+                The Toilet Project was a school project with its aim to explore IoT.
+                We built a simple client application to log on to a remote server,
+                and in doing so turning on a light through the help of an Arduino and LED.
+                In addition we wanted to add a que system to the login and the project started recembling
+                a public toilet that becomes occupied with a red light to mark its state. Hence its
+                name - the Toilet Project.
+            </p>
         </div>
     </div>
+    
 </body>
 </html>

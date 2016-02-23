@@ -1,22 +1,32 @@
 ﻿@model LoginViewModel
 
-<h1>Login</h1>
+<div class="formDiv">
+    <h1>Login</h1>
 
-<form asp-controller="Account" asp-action="Login">
-    <table>
-        <tr>
-            <td> <label class="lable" asp-for="UserName"></label></td>
-            <td><input asp-for="UserName" /></td>
-        </tr>
-        <tr><td><span asp-validation-for="UserName"></span></td></tr>
-        <tr>
-            <td>
-                <label class="lable" asp-for="Password"></label>
-                <input type="password" asp-for="Password" />
-            </td>
-        </tr>
-        <tr><td><span asp-validation-for="Password"></span></td></tr>
-    </table>
-    <p id="button"><input type="submit" value="login" /></p>
+    <form asp-controller="Account" asp-action="Login">
+        <table>
+            <tr>
+                @*<td><label class="lable" asp-for="UserName"></label></td>*@
+                <td><input asp-for="UserName"size="10" placeholder="name.."/></td>
+            </tr>
+            <tr>
+                <td><span asp-validation-for="UserName"></span></td>
+            </tr>
+            <tr>
+                @*<td>
+                    <label class="lable" asp-for="Password"></label>
+                </td>*@
+                <td>
+                    <input type="password" asp-for="Password" size="10" placeholder="password.." />
+                </td>
+            </tr>
+            <tr>
+            <td><span asp-validation-for="Password"></span></td>
+            </tr>
+        </table>
+        <p class="button"><input type="submit" value="login" /></p>
 
-</form>
+    </form>
+    
+
+</div>

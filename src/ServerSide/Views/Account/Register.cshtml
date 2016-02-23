@@ -1,26 +1,27 @@
 ﻿@model RegisterViewModel
+<div class="formDiv">
+    <h1>Register</h1>
 
-<h1>Register</h1>
+    <form asp-controller="Account" asp-action="Register">
+        <table>
+            <tr>
+                @*<td>
+                    <label class="lable" asp-for="UserName"></label>
+                </td>*@
+                <td>
+                    <input asp-for="UserName" size="10" placeholder="name.." />
+                </td>
+            </tr>
+            <tr><td><span asp-validation-for="UserName"></span></td></tr>
+            <tr>
+                @*<td>
+                    <label class="lable" asp-for="Password"></label>
+                </td>*@
+                <td><input type="password" asp-for="Password" size="10" placeholder="password.."/></td>
+            </tr>
+            <tr><td><span asp-validation-for="Password"></span></td></tr>
+        </table>
 
-<form asp-controller="Account" asp-action="Register">
-    <table>
-        <tr>
-            <td>
-                <label class="lable" asp-for="UserName"></label>
-            </td>
-            <td>
-                <input asp-for="UserName" />
-            </td>
-        </tr>
-        <tr><td><span asp-validation-for="UserName"></span></td></tr>
-        <tr>
-            <td>
-                <label class="lable" asp-for="Password"></label>
-            </td>
-            <td><input type="password" asp-for="Password" /></td>
-        </tr>
-        <tr><td><span asp-validation-for="Password"></span></td></tr>
-    </table>
-
-        <input type="submit" value="register" />
-</form>
+        <p class="button"><input type="submit" value="register" /></p>
+    </form>
+</div>
