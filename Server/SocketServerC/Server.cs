@@ -50,8 +50,14 @@ namespace SocketServerC
                         usbport.Write(message);
                     }
                     usbport.Close();
+                Console.WriteLine(message);
 
-                    Console.ReadLine();
+                listeningSocket.Close();
+                socket.Close();
+
+                SocketServer("10.42.105.46", 8145);
+
+                Console.ReadLine();
 
 
 
@@ -64,17 +70,7 @@ namespace SocketServerC
                     Console.WriteLine("ERROR: " + exception.Message + "\n" + exception.StackTrace);
                     Console.ReadLine();
                 }
-                finally
-
-                {
-                    if (listeningSocket != null)
-                        listeningSocket.Close();
-                    if (socket != null)
-                        socket.Close();
-
-
-                }
-
+                
 
             }
         }
