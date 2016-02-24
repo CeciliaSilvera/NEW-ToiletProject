@@ -1,0 +1,64 @@
+﻿body {
+    margin:0;
+    padding: 0;
+    /*font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#wrapperOuter{
+    margin:100px 600px 10px 600px;
+    /*outline-style:groove;*/
+    
+    
+    /*background-image:url(../../Img/ValentineGoldFrame.png);*/
+    min-height:691px;
+    width:684px;
+}
+a:hover, p:hover{
+    color:gainsboro;
+}
+#wrapperInner {
+    padding:30px;
+    margin:170px;
+    margin-bottom:300px;
+    background-image: url('../img/toilet-di-fernandes.jpg');
+    background-size:340px 350px;
+    height:280px;
+    width:280px;
+    border:2px groove;
+    background-repeat:no-repeat;
+    /*background-position-x:200px;
+    background-position-y:170px;*/
+
+}
+a{
+    position:relative;
+    top:-62px;
+    right:-155px;
+    color:burlywood;
+    font-size:18px;
+}
+#welcomeDiv h1{
+    /*padding-top:50px;*/
+    position:relative;
+    top:-50px;
+}
+.formDiv{
+    /*padding-top:-50px;*/
+    position:relative;
+    top:-50px;
+}
+#layoutTxt{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:100;
+    font-size:20px;
+    position:relative;
+    top:30px;
+}
+
+
+/*.lable{
+    font-weight:bold;
+}*/
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
