@@ -11,7 +11,7 @@ namespace SocketServerC
         static void Main(string[] args)
         {
             Server server = new Server();
-            server.SocketServer("10.42.104.47", 8145);
+            server.SocketServer("10.42.105.46", 8145);
 
         }
     }
