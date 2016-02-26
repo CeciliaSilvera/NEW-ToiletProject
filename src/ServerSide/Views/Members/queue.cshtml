@@ -1,0 +1,12 @@
+﻿@addTagHelper "*,Microsoft.AspNet.Mvc.TagHelpers"
+
+<h1>You are number @ViewData["Queue"] in the queue, please try again later.</h1>
+<form asp-controller="Members" asp-action="logout">
+
+    <input type="submit" value="LogOut" />
+</form>
+
+<form asp-controller="Members" asp-action="retry">
+
+    <input type="submit" value="retry" />
+</form>

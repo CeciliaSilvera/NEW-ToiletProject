@@ -5,18 +5,23 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
+using ToiletProject.Models.ViewModels;
+using Microsoft.AspNet.Authorization;
+using System.IO;
 
 namespace ToiletProject
 {
     class client
     {
-        public void SendMessage(string Message, string ip, int port)
+        public void SendMessage(string Message, string user, string ip, int port)
         {
             IPAddress ipAddress = IPAddress.Parse(ip);
             IPEndPoint remoteEndPoint = new IPEndPoint(ipAddress, port);
             UnicodeEncoding encoding = new UnicodeEncoding();
             Socket socket = null;
-            
+            string path = "C:\\Users\\Alexander\\Desktop\\Toilet-Github\\qNumber.txt";
 
 
 
@@ -30,16 +35,26 @@ namespace ToiletProject
 
 
                 Byte[] bufferOut = encoding.GetBytes(Message);
+                Byte[] bufferOut1 = encoding.GetBytes(user);
+
+
 
 
 
                 socket.Send(bufferOut);
-                
+                socket.Send(bufferOut1);
 
+
+
+                Byte[] buffer = new Byte[8];
+                socket.Receive(buffer);
+                String qNumber = encoding.GetString(buffer);
+                qNumber = 0+qNumber;                         
+                File.WriteAllText(path, qNumber);
 
 
                 socket.Close();
-
+                
 
             }
             catch (Exception)

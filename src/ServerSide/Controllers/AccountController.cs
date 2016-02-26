@@ -47,8 +47,7 @@ namespace ToiletProject.Controllers
                 return View(model);
             }
 
-            await _signInManager.PasswordSignInAsync(model.UserName, model.Password, false, false);
-                return RedirectToAction(nameof(MembersController.Index), "Members");
+            return RedirectToAction("login");
 
 
 
@@ -60,6 +59,9 @@ namespace ToiletProject.Controllers
         [AllowAnonymous]
         public IActionResult Login()
         {
+            if (User.Identity.Name != null)
+                return RedirectToAction(nameof(MembersController.Index), "Members");
+
             return View();
         }
         [AllowAnonymous]
