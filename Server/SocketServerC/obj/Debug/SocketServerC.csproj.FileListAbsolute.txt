@@ -28,11 +28,11 @@ C:\Users\Alexander\Desktop\Toilet1\Server\SocketServerC\obj\Debug\SocketServerC.
 C:\Users\Alexander\Desktop\Toilet1\Server\SocketServerC\bin\Debug\SocketServerC.exe
 C:\Users\Alexander\Desktop\Toilet1\Server\SocketServerC\bin\Debug\SocketServerC.pdb
 C:\Users\Alexander\Desktop\Toilet1\Server\SocketServerC\obj\Debug\SocketServerC.csprojResolveAssemblyReference.cache
+C:\Users\Cecilia\Source\Repos\NEW-ToiletProject\Server\SocketServerC\bin\Debug\SocketServerC.exe
+C:\Users\Cecilia\Source\Repos\NEW-ToiletProject\Server\SocketServerC\bin\Debug\SocketServerC.pdb
 C:\Users\Cecilia\Source\Repos\NEW-ToiletProject\Server\SocketServerC\bin\Debug\SocketServerC.exe.config
 C:\Users\Cecilia\Source\Repos\NEW-ToiletProject\Server\SocketServerC\obj\Debug\SocketServerC.exe
 C:\Users\Cecilia\Source\Repos\NEW-ToiletProject\Server\SocketServerC\obj\Debug\SocketServerC.pdb
-C:\Users\Cecilia\Source\Repos\NEW-ToiletProject\Server\SocketServerC\bin\Debug\SocketServerC.exe
-C:\Users\Cecilia\Source\Repos\NEW-ToiletProject\Server\SocketServerC\bin\Debug\SocketServerC.pdb
 C:\Users\Cecilia\Source\Repos\NEW-ToiletProject\Server\SocketServerC\obj\Debug\SocketServerC.csprojResolveAssemblyReference.cache
 C:\Users\Alexander\Desktop\Toilet1 - Copy\Server\SocketServerC\bin\Debug\SocketServerC.exe.config
 C:\Users\Alexander\Desktop\Toilet1 - Copy\Server\SocketServerC\obj\Debug\SocketServerC.exe
