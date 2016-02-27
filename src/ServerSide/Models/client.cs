@@ -49,8 +49,16 @@ namespace ToiletProject
                 Byte[] buffer = new Byte[8];
                 socket.Receive(buffer);
                 String qNumber = encoding.GetString(buffer);
-                qNumber = 0+qNumber;                         
+                string compare = File.ReadAllLines(path).ToString();
+                //compare = 0+compare;               
+                qNumber = 0+qNumber;
+                //if (qNumber != compare)
+                //{
+                //    qNumberint = Int32.Parse(qNumber);
+                //    qNumber = qNumberint--.ToString();
+                //}
                 File.WriteAllText(path, qNumber);
+                    
 
 
                 socket.Close();

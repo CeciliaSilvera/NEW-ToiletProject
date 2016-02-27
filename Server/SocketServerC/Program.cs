@@ -23,7 +23,7 @@ namespace SocketServerC
             File.Create(replace).Close();
 
             Server server = new Server();
-            server.SocketServer("192.168.1.2", 8145);
+            server.SocketServer("172.20.10.3", 8145);
 
         }
         

@@ -46,7 +46,7 @@ namespace ToiletProject.Controllers
                 ModelState.AddModelError("UserName", result.Errors.First().Description);
                 return View(model);
             }
-
+                
             return RedirectToAction("login");
 
 
@@ -59,8 +59,8 @@ namespace ToiletProject.Controllers
         [AllowAnonymous]
         public IActionResult Login()
         {
-            if (User.Identity.Name != null)
-                return RedirectToAction(nameof(MembersController.Index), "Members");
+            //if (User.Identity.Name != null)
+            //    return RedirectToAction(nameof(MembersController.Index), "Members");
 
             return View();
         }

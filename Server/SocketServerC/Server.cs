@@ -94,13 +94,22 @@ namespace SocketServerC
 
 
                         }
-                        counter = list.Count-1;
+                        
                     }
 
                 }
-                string username = File.ReadLines(path + filename).First();
 
-                
+                string username = File.ReadLines(path + filename).First();
+                List<String> file = File.ReadAllLines(path + filename).ToList();
+                { 
+
+if(file.Contains(user))
+                    {
+                        counter = file.Count;
+                    }
+
+                }
+                counter = counter - 1;
 
                 Console.WriteLine("you are number " + counter + " in the queue");
 
@@ -123,7 +132,7 @@ namespace SocketServerC
                 {
                     var lines = File.ReadAllLines(path + filename);
                     File.WriteAllLines(fpath, lines.Skip(1).ToArray());
-                    counter = counter--;
+                 
                   
 
                 }
@@ -176,7 +185,7 @@ namespace SocketServerC
                 listeningSocket.Close();
                     socket.Close();
 
-                    SocketServer("192.168.1.2", 8145);
+                    SocketServer("172.20.10.3", 8145);
 
                     Console.ReadLine();
 
