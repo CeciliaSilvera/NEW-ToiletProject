@@ -117,6 +117,11 @@ if(file.Contains(user))
 
                 if (user == username)
                 {
+                    usbport.Open();
+                    
+                        usbport.Write(message);
+                    
+                    usbport.Close();
 
                     Console.WriteLine("light turn on message:  " + message);
                     Console.WriteLine("username:  " + user);
@@ -168,15 +173,8 @@ if(file.Contains(user))
                     }
 
                 }
-                //usbport.Open();
-                //        if (usbport.IsOpen && id == 1)
-                //        {
-                //            usbport.Write(message);
-                //        }
-                //        usbport.Close();
+                
 
-                //Console.WriteLine("light turn on message:  " + message);
-                //Console.WriteLine("username:  " + user);
 
                 Byte[] bufferOut = encoding.GetBytes(counter.ToString());
 
@@ -185,7 +183,7 @@ if(file.Contains(user))
                 listeningSocket.Close();
                     socket.Close();
 
-                    SocketServer("172.20.10.3", 8145);
+                    SocketServer("10.42.104.192", 8145);
 
                     Console.ReadLine();
 

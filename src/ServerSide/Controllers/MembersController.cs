@@ -45,7 +45,7 @@ namespace ToiletProject.Controllers
             if (User.Identity.IsAuthenticated)
             {
                 
-                    cl.SendMessage("1", User.Identity.Name, "172.20.10.3", 8145);
+                    cl.SendMessage("1", User.Identity.Name, "10.42.104.192", 8145);
 
                     
 
@@ -108,7 +108,7 @@ namespace ToiletProject.Controllers
         {
 
             _signInManager.SignOutAsync();
-            cl.SendMessage("2", User.Identity.Name, "172.20.10.3", 8145);
+            cl.SendMessage("2", User.Identity.Name, "10.42.104.192", 8145);
             return View();
 
             
