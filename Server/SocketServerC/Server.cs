@@ -22,7 +22,7 @@ namespace SocketServerC
             IPEndPoint localEndPoint = new IPEndPoint(ipAddress, port);
             SerialPort usbport = new SerialPort();
 
-            usbport.PortName = "COM6";
+            usbport.PortName = "COM3";
             usbport.BaudRate = 9600;
 
             
@@ -47,6 +47,7 @@ namespace SocketServerC
                     usbport.Open();
                     if (usbport.IsOpen)
                     {
+                    
                         usbport.Write(message);
                     }
                     usbport.Close();
@@ -55,7 +56,7 @@ namespace SocketServerC
                 listeningSocket.Close();
                 socket.Close();
 
-                SocketServer("10.42.105.46", 8145);
+                SocketServer("10.42.104.192", 8145);
 
                 Console.ReadLine();
 
